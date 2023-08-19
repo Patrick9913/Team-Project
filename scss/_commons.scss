@@ -1,6 +1,7 @@
 * {
     text-decoration: none !important;
     list-style: none;
+    font-family: 'Quicksand', sans-serif !important;
 }
 @mixin basis ($basis) {
     flex-basis: $basis;
@@ -37,7 +38,7 @@ body {
         }
     }
     footer {
-        background-color: rgb(4, 115, 111);
+        background-color: rgb(4, 94, 91);
         padding:8px 0px;
         section {
             padding: 0px 12px;
@@ -55,6 +56,21 @@ body {
                 }
             }
             div {
+                div{
+                    h5{
+                        color: rgb(223, 223, 223);
+                        span{
+                            svg{
+                                width: 25px;
+                                height: 25px;
+                                fill: white;
+                            }
+                        }
+                    }
+                    p{
+                        color: white;
+                    }
+                }
                 @include basis (33.3%);
             }
             div {
