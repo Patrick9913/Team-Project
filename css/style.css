@@ -1,6 +1,12 @@
+* {
+  text-decoration: none !important;
+  list-style: none;
+}
+
 body {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 body nav {
   background-color: rgb(4, 115, 111);
@@ -22,6 +28,32 @@ body nav div ul li a {
 }
 body nav div ul li a:hover {
   transform: scale(1.1);
+}
+body footer {
+  background-color: rgb(4, 115, 111);
+  padding: 8px 0px;
+}
+body footer section {
+  padding: 0px 12px;
+}
+body footer section div {
+  flex-basis: 33.3%;
+}
+body footer section div a {
+  font-size: 1.25em;
+  color: white;
+}
+body footer section div a svg {
+  width: 50px;
+  height: 50px;
+  fill: white;
+  margin-right: 15px;
+}
+body footer section div {
+  flex-basis: 33.3%;
+}
+body footer section div {
+  flex-basis: 33.3%;
 }
 
 /*# sourceMappingURL=style.css.map */

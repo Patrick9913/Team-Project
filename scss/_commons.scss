@@ -1,6 +1,14 @@
+* {
+    text-decoration: none !important;
+    list-style: none;
+}
+@mixin basis ($basis) {
+    flex-basis: $basis;
+}
 body {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     nav {
         background-color: rgb(4, 115, 111);
         div {
@@ -29,6 +37,29 @@ body {
         }
     }
     footer {
-
+        background-color: rgb(4, 115, 111);
+        padding:8px 0px;
+        section {
+            padding: 0px 12px;
+            div {
+                @include basis (33.3%);
+                a {
+                    font-size: 1.25em;
+                    color: white;
+                    svg {
+                        width: 50px;
+                        height: 50px;
+                        fill: white;
+                        margin-right: 15px;
+                    }
+                }
+            }
+            div {
+                @include basis (33.3%);
+            }
+            div {
+                @include basis (33.3%);
+            }
+        }
     }
 }
