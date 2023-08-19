@@ -1,9 +1,27 @@
-.nf-a-style {
-  color: white;
+body {
+  margin: 0;
+  padding: 0;
+}
+body nav {
+  background-color: rgb(4, 115, 111);
+}
+body nav div a {
+  color: white !important;
   transition: 0.5;
 }
-.nf-a-style:hover {
-  color: wheat;
+body nav div a svg {
+  width: 50px;
+  height: 50px;
+  fill: white;
+  margin-right: 15px;
+}
+body nav div ul li a {
+  color: white !important;
+  margin: 0px 10px;
+  transition: transform 0.2s ease !important;
+}
+body nav div ul li a:hover {
+  transform: scale(1.1);
 }
 
 /*# sourceMappingURL=style.css.map */
