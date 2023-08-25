@@ -98,7 +98,7 @@ header h1 {
 
 .co-main {
   border-radius: 3px;
-  background-color: aqua;
+  background-color: rgb(4, 115, 111);
   padding: 50px 90px;
 }
 .co-main .co-container-ul {
@@ -108,6 +108,7 @@ header h1 {
   align-items: stretch;
   flex-wrap: nowrap;
   justify-content: space-between;
+  padding-left: 40px;
 }
 .co-main .co-container-ul li {
   display: flex;
@@ -128,6 +129,8 @@ header h1 {
   margin-left: 15px;
   display: flex;
   flex-direction: column;
+  font-weight: 600;
+  color: black;
 }
 
 /*# sourceMappingURL=style.css.map */
