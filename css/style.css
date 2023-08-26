@@ -95,4 +95,10 @@ header h1 {
   text-shadow: 7px 3px 6px black;
 }
 
+aside svg {
+  width: 70px;
+  height: 70px;
+  fill: black;
+}
+
 /*# sourceMappingURL=style.css.map */
