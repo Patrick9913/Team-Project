@@ -135,22 +135,20 @@ header h1 {
   font-weight: 600;
   color: black;
 }
-
-.co-container-form {
+.co-main .co-container-form {
   margin: 3rem 0;
 }
-.co-container-form .co-inputs {
+.co-main .co-container-form .co-inputs {
   font-weight: bold;
   background-color: whitesmoke;
   border-radius: 10px;
   border: solid 5px rgb(4, 115, 111);
 }
-
-.co-iframe-map {
+.co-main .co-iframe-map {
   width: 100%;
   height: 300px;
 }
-.co-iframe-map iframe {
+.co-main .co-iframe-map iframe {
   width: 100%;
   height: 100%;
 }
