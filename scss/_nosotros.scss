@@ -11,8 +11,24 @@ header {
     }
 }
 
-aside svg{
-    width: 70px;
-    height: 70px;
-    fill: black;
+aside{
+    margin-top: 90px;
+    background-color: beige;
+    svg{
+        width: 100px;
+        height: 100px;
+        fill: white;
+        margin-top: 20px;
+        margin-right: 40px;
+        margin-bottom: 50px;
+        background-color: black;
+        border-radius: 50%;
+        border-top-left-radius: 50%;
+        border-top-right-radius: 50%;
+        border-bottom-right-radius: 50%;
+        border-bottom-left-radius: 50%;
+    }
+    h4{
+        margin-top: 30px;
+    }
 }
