@@ -1,37 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link rel="stylesheet" href="./css/style.css">
   <title>SkyBridge Logistics</title>
 </head>
+
 <body>
   <nav class="navbar navbar-expand-lg">
-      <div class="container-fluid d-flex justify-content-center align-items-center">
-        <a class="navbar-brand nf-a-style ms-3" href="#"><svg data-name="Layer 3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128"><path d="m16.951 89.082 46.272 23.74a1.469 1.469 0 0 0 .146.067 1.368 1.368 0 0 0 .126.058 1.3 1.3 0 0 0 1.009 0 1.373 1.373 0 0 0 .126-.058 1.467 1.467 0 0 0 .146-.067l46.272-23.74a1.439 1.439 0 0 0 .785-1.282h.006V40.2a1.43 1.43 0 0 0-.076-.442 1.434 1.434 0 0 0-.264-.478v-.006a1.442 1.442 0 0 0-.552-.409L87.852 27.011l-23.2-11.9a1.439 1.439 0 0 0-1.311 0l-23.2 11.9-23.082 11.847a1.446 1.446 0 0 0-.734.681 1.429 1.429 0 0 0-.152.544v.01c0 .034-.01.066-.01.1V87.8h.006a1.439 1.439 0 0 0 .782 1.282zm2.1-46.527 21.1 10.823 22.406 11.5v44.369l-43.5-22.319zm46.393 66.687V64.873l14.505-7.442v8.449a1.446 1.446 0 0 0 2.637.82l5.642-6.945 3.816 1.605a1.441 1.441 0 0 0 2-1.327h.006V50.2l14.9-7.643v44.366zm17.4-53.294 5.009-2.57 3.308-1.7v6.183l-2.747-1.151a1.441 1.441 0 0 0-1.74.391l-3.831 4.715zM64 18.01l22.541 11.565 20.7 10.62L93 47.5 49.756 25.318zM41.458 29.575l5.142-2.639 43.167 22.146-8.375 4.368-43.234-22.181zM35 32.887l43.24 22.184L64 62.379 41.458 50.814l-20.7-10.619z"/></svg>SkyBridge Logistics</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link nf-a-style" aria-current="page" href="#">Inicio |</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link nf-a-style" href="#">Suscripción |</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link nf-a-style" href="#">Nosotros |</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link nf-a-style" aria-disabled="true" href="#">Contacto |</a>
-            </li>
-          </ul>
-        </div>
+    <div class="container-fluid d-flex justify-content-center align-items-center">
+      <a class="navbar-brand nf-a-style ms-3" href="#"><svg data-name="Layer 3" xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 128 128">
+          <path
+            d="m16.951 89.082 46.272 23.74a1.469 1.469 0 0 0 .146.067 1.368 1.368 0 0 0 .126.058 1.3 1.3 0 0 0 1.009 0 1.373 1.373 0 0 0 .126-.058 1.467 1.467 0 0 0 .146-.067l46.272-23.74a1.439 1.439 0 0 0 .785-1.282h.006V40.2a1.43 1.43 0 0 0-.076-.442 1.434 1.434 0 0 0-.264-.478v-.006a1.442 1.442 0 0 0-.552-.409L87.852 27.011l-23.2-11.9a1.439 1.439 0 0 0-1.311 0l-23.2 11.9-23.082 11.847a1.446 1.446 0 0 0-.734.681 1.429 1.429 0 0 0-.152.544v.01c0 .034-.01.066-.01.1V87.8h.006a1.439 1.439 0 0 0 .782 1.282zm2.1-46.527 21.1 10.823 22.406 11.5v44.369l-43.5-22.319zm46.393 66.687V64.873l14.505-7.442v8.449a1.446 1.446 0 0 0 2.637.82l5.642-6.945 3.816 1.605a1.441 1.441 0 0 0 2-1.327h.006V50.2l14.9-7.643v44.366zm17.4-53.294 5.009-2.57 3.308-1.7v6.183l-2.747-1.151a1.441 1.441 0 0 0-1.74.391l-3.831 4.715zM64 18.01l22.541 11.565 20.7 10.62L93 47.5 49.756 25.318zM41.458 29.575l5.142-2.639 43.167 22.146-8.375 4.368-43.234-22.181zM35 32.887l43.24 22.184L64 62.379 41.458 50.814l-20.7-10.619z" />
+        </svg>SkyBridge Logistics</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link nf-a-style" aria-current="page" href="#">Inicio |</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nf-a-style" href="#">Suscripción |</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nf-a-style" href="#">Nosotros |</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nf-a-style" aria-disabled="true" href="#">Contacto |</a>
+          </li>
+        </ul>
       </div>
+    </div>
   </nav>
   <header class="in-headerProp d-flex justify-content-center align-items-center">
     <h1>Conectando Horizontes: Soluciones Logísticas Innovadoras con SkyBridge Logistics</h1>
@@ -44,7 +52,10 @@
         <h1>¿Que Hacemos?</h1>
       </div>
       <div>
-        <p>En Skybridge Logistics, creamos puentes logísticos que conectan empresas con soluciones innovadoras. Facilitamos la gestión eficiente de cadenas de suministro, transporte internacional y distribución, permitiendo a las empresas superar barreras y llegar a nuevos mercados con confianza. Simplificamos lo complejo para que puedas enfocarte en lo que haces mejor.</p>
+        <p>En Skybridge Logistics, creamos puentes logísticos que conectan empresas con soluciones innovadoras.
+          Facilitamos la gestión eficiente de cadenas de suministro, transporte internacional y distribución,
+          permitiendo a las empresas superar barreras y llegar a nuevos mercados con confianza. Simplificamos lo
+          complejo para que puedas enfocarte en lo que haces mejor.</p>
         <p></p>
       </div>
     </section>
@@ -55,8 +66,10 @@
       <!-- figure 1 -->
       <figure>
         <div>
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-truck" viewBox="0 0 16 16">
-            <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5v-7zm1.294 7.456A1.999 1.999 0 0 1 4.732 11h5.536a2.01 2.01 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456zM12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12v4zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-truck"
+            viewBox="0 0 16 16">
+            <path
+              d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5v-7zm1.294 7.456A1.999 1.999 0 0 1 4.732 11h5.536a2.01 2.01 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456zM12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12v4zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z" />
           </svg>
         </div>
         <div>
@@ -71,8 +84,10 @@
       <!-- figure 2 -->
       <figure>
         <div>
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-map-fill" viewBox="0 0 16 16">
-            <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.598-.49L10.5.99 5.598.01a.5.5 0 0 0-.196 0l-5 1A.5.5 0 0 0 0 1.5v14a.5.5 0 0 0 .598.49l4.902-.98 4.902.98a.502.502 0 0 0 .196 0l5-1A.5.5 0 0 0 16 14.5V.5zM5 14.09V1.11l.5-.1.5.1v12.98l-.402-.08a.498.498 0 0 0-.196 0L5 14.09zm5 .8V1.91l.402.08a.5.5 0 0 0 .196 0L11 1.91v12.98l-.5.1-.5-.1z"/>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-map-fill"
+            viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+              d="M16 .5a.5.5 0 0 0-.598-.49L10.5.99 5.598.01a.5.5 0 0 0-.196 0l-5 1A.5.5 0 0 0 0 1.5v14a.5.5 0 0 0 .598.49l4.902-.98 4.902.98a.502.502 0 0 0 .196 0l5-1A.5.5 0 0 0 16 14.5V.5zM5 14.09V1.11l.5-.1.5.1v12.98l-.402-.08a.498.498 0 0 0-.196 0L5 14.09zm5 .8V1.91l.402.08a.5.5 0 0 0 .196 0L11 1.91v12.98l-.5.1-.5-.1z" />
           </svg>
         </div>
         <div>
@@ -87,8 +102,10 @@
       <!-- figure 3 -->
       <figure>
         <div>
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-emoji-smile-fill" viewBox="0 0 16 16">
-            <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zM7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zM4.285 9.567a.5.5 0 0 1 .683.183A3.498 3.498 0 0 0 8 11.5a3.498 3.498 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.498 4.498 0 0 1 8 12.5a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683zM10 8c-.552 0-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5S10.552 8 10 8z"/>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+            class="bi bi-emoji-smile-fill" viewBox="0 0 16 16">
+            <path
+              d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zM7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zM4.285 9.567a.5.5 0 0 1 .683.183A3.498 3.498 0 0 0 8 11.5a3.498 3.498 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.498 4.498 0 0 1 8 12.5a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683zM10 8c-.552 0-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5S10.552 8 10 8z" />
           </svg>
         </div>
         <div>
@@ -107,51 +124,69 @@
       <article class="container mt-5">
         <div class="text-center">
           <h2>Areas de cobertura</h2>
-          <p>En SkyBridge Logistics, brindamos soluciones logísticas de primera clase en todo el mundo. Nuestra red global nos permite ofrecer servicios de transporte y distribución de carga en una variedad de áreas geográficas. Desde envíos nacionales hasta operaciones internacionales, estamos aquí para garantizar que su carga llegue a su destino de manera eficiente y segura.</p>
+          <p>En SkyBridge Logistics, brindamos soluciones logísticas de primera clase en todo el mundo. Nuestra red
+            global nos permite ofrecer servicios de transporte y distribución de carga en una variedad de áreas
+            geográficas. Desde envíos nacionales hasta operaciones internacionales, estamos aquí para garantizar que su
+            carga llegue a su destino de manera eficiente y segura.</p>
         </div>
       </article>
       <article class="container mt-5">
-          <div class="col-md-4 in-contenedor">
-              <img src="./imagenes/area-cobertura/index-almacenes.webp" alt="equipo de trabajo trabjando sobre la logistica del almacenamiento" class="h-100  in-imagen">
-            <div class="in-parrafo">
-              <p>Gestión de almacenes: operación y administración de almacenes y centros de distribución, incluyendo almacenamiento, picking y packing, inventario en tiempo real y optimización de la cadena de suministro.</p>
-            </div>
+        <div class="col-md-4 in-contenedor">
+          <img src="./imagenes/area-cobertura/index-almacenes.webp"
+            alt="equipo de trabajo trabjando sobre la logistica del almacenamiento" class="h-100  in-imagen">
+          <div class="in-parrafo">
+            <p>Gestión de almacenes: operación y administración de almacenes y centros de distribución, incluyendo
+              almacenamiento, picking y packing, inventario en tiempo real y optimización de la cadena de suministro.
+            </p>
           </div>
-          <div class="col-md-4 in-contenedor">
-              <img src="./imagenes/area-cobertura/index-distribucion.webp" alt="hombre cumpliendo con su trabajo de distrubucion" class="h-100  in-imagen">
-            <div class="in-parrafo">
-              <p>Distribución y última milla: planificación y ejecución de la distribución de productos desde los almacenes hasta los clientes finales, garantizando entregas puntuales y eficientes.</p>
-            </div>
+        </div>
+        <div class="col-md-4 in-contenedor">
+          <img src="./imagenes/area-cobertura/index-distribucion.webp"
+            alt="hombre cumpliendo con su trabajo de distrubucion" class="h-100  in-imagen">
+          <div class="in-parrafo">
+            <p>Distribución y última milla: planificación y ejecución de la distribución de productos desde los
+              almacenes hasta los clientes finales, garantizando entregas puntuales y eficientes.</p>
           </div>
-          <div class="col-md-4 in-contenedor">
-              <img src="./imagenes/area-cobertura/index-frigorificos.webp" alt="hombre con planilla en mano, revisando el inventario sobre la gestion de cadena de frio" class="h-100  in-imagen">
-            <div class="in-parrafo">
-              <p>Gestión de cadena de frío: especialización en transporte y almacenamiento de productos sensibles a la temperatura, como alimentos perecederos, productos farmacéuticos y productos químicos.<p>
-            </div>
+        </div>
+        <div class="col-md-4 in-contenedor">
+          <img src="./imagenes/area-cobertura/index-frigorificos.webp"
+            alt="hombre con planilla en mano, revisando el inventario sobre la gestion de cadena de frio"
+            class="h-100  in-imagen">
+          <div class="in-parrafo">
+            <p>Gestión de cadena de frío: especialización en transporte y almacenamiento de productos sensibles a la
+              temperatura, como alimentos perecederos, productos farmacéuticos y productos químicos.
+            <p>
           </div>
-            <div class="col-md-4 in-contenedor">
-                <img src="./imagenes/area-cobertura/index-logistica-inversa.webp" alt="hombre con libreta en mano planificando la logistica inversa de la empresa " class="h-100  in-imagen">
-              <div class="in-parrafo">
-                <p>
-                  Logística inversa: gestión de devoluciones y retornos de productos desde los clientes hasta los almacenes, así como el reacondicionamiento o eliminación de productos devueltos.</p>
-              </div>
-            </div>
-            <div class="col-md-4 in-contenedor">
-                <img src="./imagenes/area-cobertura/index-terreste.webp" alt="flota de camiones estacionados uno al lado del otro " class="h-100  in-imagen">
-              <div class="in-parrafo">
-                <p>Transporte Terrestre Nacional: organización y administración de transportes terrestres dentro de un país, involucra flotas de camiones, planificación de rutas y seguimiento en tiempo real.</p>
-              </div>
-            </div>
-            <div class="col-md-4 in-contenedor">
-                <img src="./imagenes/area-cobertura/index-verde-sostenible.webp" alt="hombre revisando planilla sobre la logistica de verde y sostenible" class="h-100 in-imagen">
-              <div class="in-parrafo">
-                <p>
-                  Logística verde y sostenible: enfoque en prácticas de logística que minimizan el impacto ambiental, como la optimización de rutas, el uso de vehículos eficientes y la reducción de residuos.
-                </p>
-              </div>
-            </div>
+        </div>
+        <div class="col-md-4 in-contenedor">
+          <img src="./imagenes/area-cobertura/index-logistica-inversa.webp"
+            alt="hombre con libreta en mano planificando la logistica inversa de la empresa " class="h-100  in-imagen">
+          <div class="in-parrafo">
+            <p>
+              Logística inversa: gestión de devoluciones y retornos de productos desde los clientes hasta los almacenes,
+              así como el reacondicionamiento o eliminación de productos devueltos.</p>
+          </div>
+        </div>
+        <div class="col-md-4 in-contenedor">
+          <img src="./imagenes/area-cobertura/index-terreste.webp"
+            alt="flota de camiones estacionados uno al lado del otro " class="h-100  in-imagen">
+          <div class="in-parrafo">
+            <p>Transporte Terrestre Nacional: organización y administración de transportes terrestres dentro de un país,
+              involucra flotas de camiones, planificación de rutas y seguimiento en tiempo real.</p>
+          </div>
+        </div>
+        <div class="col-md-4 in-contenedor">
+          <img src="./imagenes/area-cobertura/index-verde-sostenible.webp"
+            alt="hombre revisando planilla sobre la logistica de verde y sostenible" class="h-100 in-imagen">
+          <div class="in-parrafo">
+            <p>
+              Logística verde y sostenible: enfoque en prácticas de logística que minimizan el impacto ambiental, como
+              la optimización de rutas, el uso de vehículos eficientes y la reducción de residuos.
+            </p>
+          </div>
+        </div>
       </article>
-      <article class="container mt-5">
+      <article class="container mt-5 mb-5">
         <div class="text-center">
           <h3>Contactenos Ya</h3>
           <button>Contactar</button>
@@ -161,40 +196,43 @@
     <!-- TERMINA 3RA SECTION -->
 
     <!-- 4TA SECTION -->
-    <section>
-      <h4>Lo que dicen nuestros clientes</h2>
-      <article>
-        <div>
-          <div>
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
-              <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
-            </svg>
-            <p>Cliente</p>
-          </div>
-          <div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima maiores quod sunt tempora reprehenderit, nam voluptatum at blanditiis tempore rerum sapiente sint corporis sequi aliquam voluptatem asperiores quo fugit ducimus.</p>
-          </div>
-        </div>
-        <div>
-          <div>
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
-              <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
-            </svg>
-            <p>Cliente</p>
-          </div>
-          <div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima maiores quod sunt tempora reprehenderit, nam voluptatum at blanditiis tempore rerum sapiente sint corporis sequi aliquam voluptatem asperiores quo fugit ducimus.</p>
+    <section class="container mt-5 d-flex">
+      <article class="row">
+          <h2 class="text-center mb-5">Lo dicen nuestros clientes</h2>
+        <div class="col-md-4 mb-4">
+          <div class="card d-flex flex-column p-5">
+            <div class="card-body d-flex">
+              <svg class="mx-3" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
+              </svg>
+              <h3 class="card-title">Claudia Lopez</h3> 
+            </div>
+            <p class="card-text">¡Excelente servicio de logística! SkyBridge Logistic hizo que nuestras entregas
+                fueran más eficientes y rápidas. Sin duda, seguiremos trabajando con ellos.</p>
           </div>
         </div>
-        <div>
-          <div>
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
-              <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
-            </svg>
-            <p>Cliente</p>
+        <div class="col-md-4 mb-4">
+          <div class="card d-flex flex-column p-5">
+            <div class="card-body d-flex">
+              <svg class="mx-3" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
+              </svg>
+              <h3 class="card-title">Gabriel Perez</h3>
+            </div>
+            <p class="card-text">SkyBridge Logistic ha demostrado ser un socio confiable para nuestro negocio de
+              logística. Su profesionalismo y atención al detalle han mejorado nuestra cadena de suministro.</p>
           </div>
-          <div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima maiores quod sunt tempora reprehenderit, nam voluptatum at blanditiis tempore rerum sapiente sint corporis sequi aliquam voluptatem asperiores quo fugit ducimus.</p>
+        </div>
+        <div class="col-md-4 mb-4 justify-content-center">
+          <div class="card d-flex flex-column p-5">
+            <div class="card-body d-flex">
+              <svg class="mx-3" xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
+              </svg>
+              <h3 class="card-title">Agustin Bustos</h3>
+            </div>
+            <p class="card-text">Estamos muy contentos con los servicios de SkyBridge Logistic. Han simplificado
+              nuestras operaciones de logística y nos han ahorrado tiempo y costos significativos.</p>
           </div>
         </div>
       </article>
@@ -203,61 +241,74 @@
   </main>
   <!-- TERMINA MAIN -->
   <footer>
-      <section class="d-flex">
-        <div class="ms-3">
-          <a href="#"><svg data-name="Layer 3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128"><path d="m16.951 89.082 46.272 23.74a1.469 1.469 0 0 0 .146.067 1.368 1.368 0 0 0 .126.058 1.3 1.3 0 0 0 1.009 0 1.373 1.373 0 0 0 .126-.058 1.467 1.467 0 0 0 .146-.067l46.272-23.74a1.439 1.439 0 0 0 .785-1.282h.006V40.2a1.43 1.43 0 0 0-.076-.442 1.434 1.434 0 0 0-.264-.478v-.006a1.442 1.442 0 0 0-.552-.409L87.852 27.011l-23.2-11.9a1.439 1.439 0 0 0-1.311 0l-23.2 11.9-23.082 11.847a1.446 1.446 0 0 0-.734.681 1.429 1.429 0 0 0-.152.544v.01c0 .034-.01.066-.01.1V87.8h.006a1.439 1.439 0 0 0 .782 1.282zm2.1-46.527 21.1 10.823 22.406 11.5v44.369l-43.5-22.319zm46.393 66.687V64.873l14.505-7.442v8.449a1.446 1.446 0 0 0 2.637.82l5.642-6.945 3.816 1.605a1.441 1.441 0 0 0 2-1.327h.006V50.2l14.9-7.643v44.366zm17.4-53.294 5.009-2.57 3.308-1.7v6.183l-2.747-1.151a1.441 1.441 0 0 0-1.74.391l-3.831 4.715zM64 18.01l22.541 11.565 20.7 10.62L93 47.5 49.756 25.318zM41.458 29.575l5.142-2.639 43.167 22.146-8.375 4.368-43.234-22.181zM35 32.887l43.24 22.184L64 62.379 41.458 50.814l-20.7-10.619z"/></svg>SkyBridge Logistics</a>
+    <section class="d-flex">
+      <div class="ms-3">
+        <a href="#"><svg data-name="Layer 3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+            <path
+              d="m16.951 89.082 46.272 23.74a1.469 1.469 0 0 0 .146.067 1.368 1.368 0 0 0 .126.058 1.3 1.3 0 0 0 1.009 0 1.373 1.373 0 0 0 .126-.058 1.467 1.467 0 0 0 .146-.067l46.272-23.74a1.439 1.439 0 0 0 .785-1.282h.006V40.2a1.43 1.43 0 0 0-.076-.442 1.434 1.434 0 0 0-.264-.478v-.006a1.442 1.442 0 0 0-.552-.409L87.852 27.011l-23.2-11.9a1.439 1.439 0 0 0-1.311 0l-23.2 11.9-23.082 11.847a1.446 1.446 0 0 0-.734.681 1.429 1.429 0 0 0-.152.544v.01c0 .034-.01.066-.01.1V87.8h.006a1.439 1.439 0 0 0 .782 1.282zm2.1-46.527 21.1 10.823 22.406 11.5v44.369l-43.5-22.319zm46.393 66.687V64.873l14.505-7.442v8.449a1.446 1.446 0 0 0 2.637.82l5.642-6.945 3.816 1.605a1.441 1.441 0 0 0 2-1.327h.006V50.2l14.9-7.643v44.366zm17.4-53.294 5.009-2.57 3.308-1.7v6.183l-2.747-1.151a1.441 1.441 0 0 0-1.74.391l-3.831 4.715zM64 18.01l22.541 11.565 20.7 10.62L93 47.5 49.756 25.318zM41.458 29.575l5.142-2.639 43.167 22.146-8.375 4.368-43.234-22.181zM35 32.887l43.24 22.184L64 62.379 41.458 50.814l-20.7-10.619z" />
+          </svg>SkyBridge Logistics</a>
+      </div>
+      <!-- finaliza el logo -->
+      <div>
+        <div class="mb-5 d-flex flex-column">
+          <div class="d-flex mb-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+              class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+              <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+            </svg>
+            <h4>Dirección :</h4>
+          </div>
+          <p>Nazca - 2578 / awdaw</p>
         </div>
-        <!-- finaliza el logo -->
-        <div>
-          <div class="mb-5 d-flex flex-column">
-            <div class="d-flex mb-2">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
-                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
-              </svg>
-              <h4>Dirección :</h4>
-            </div>
-            <p>Nazca - 2578 / awdaw</p>
+        <div class="mb-5 d-flex flex-column">
+          <div class="d-flex mb-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+              class="bi bi-envelope-fill" viewBox="0 0 16 16">
+              <path
+                d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z" />
+            </svg>
+            <h4>E-mail :</h4>
           </div>
-          <div class="mb-5 d-flex flex-column">
-            <div class="d-flex mb-2">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
-                <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/>
-              </svg>
-              <h4>E-mail :</h4>
-            </div>
-            <p>persona@email.com</p>
-          </div>
+          <p>persona@email.com</p>
         </div>
-        <!-- finaliza primera columna -->
-        <div>
-          <div class="mb-5 d-flex flex-column">
-            <div class="d-flex mb-2">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
-              </svg>
-              <h4>Teléfono :</h4>
-            </div>
-            <p>(011) #### ####</p>
+      </div>
+      <!-- finaliza primera columna -->
+      <div>
+        <div class="mb-5 d-flex flex-column">
+          <div class="d-flex mb-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+              class="bi bi-telephone-fill" viewBox="0 0 16 16">
+              <path fill-rule="evenodd"
+                d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+            </svg>
+            <h4>Teléfono :</h4>
           </div>
-          <div class="mb-5 d-flex flex-column">
-            <div class="d-flex mb-2">
-              <span>
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
-                  <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
-                </svg>
-              </span>
-              <h4>Whatsapp :</h4>
-            </div>
-            <p>(011) #### ####</p>
-          </div>
+          <p>(011) #### ####</p>
         </div>
-        <!-- finaliza segunda columna -->
-      </section>
+        <div class="mb-5 d-flex flex-column">
+          <div class="d-flex mb-2">
+            <span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp"
+                viewBox="0 0 16 16">
+                <path
+                  d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
+              </svg>
+            </span>
+            <h4>Whatsapp :</h4>
+          </div>
+          <p>(011) #### ####</p>
+        </div>
+      </div>
+      <!-- finaliza segunda columna -->
+    </section>
   </footer>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
-      AOS.init();
+    AOS.init();
   </script>
 </body>
+
 </html>
