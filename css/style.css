@@ -95,11 +95,11 @@ header h1 {
   text-shadow: 7px 3px 6px black;
 }
 
-aside {
+.nos-section {
   margin-top: 90px;
   background-color: beige;
 }
-aside svg {
+.nos-section svg {
   width: 100px;
   height: 100px;
   fill: white;
@@ -113,7 +113,7 @@ aside svg {
   border-bottom-right-radius: 50%;
   border-bottom-left-radius: 50%;
 }
-aside h4 {
+.nos-section h4 {
   margin-top: 30px;
 }
 
