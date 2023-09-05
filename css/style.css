@@ -96,7 +96,6 @@ header h1 {
 }
 
 .nos-section {
-  margin-top: 90px;
   background-color: beige;
 }
 .nos-section svg {
@@ -115,6 +114,10 @@ header h1 {
 }
 .nos-section h4 {
   margin-top: 30px;
+}
+
+.nos-section1 {
+  background-color: rgb(231, 251, 231);
 }
 
 .nos-grid {
@@ -140,9 +143,16 @@ header h1 {
   grid-area: area4;
 }
 
-.div {
-  background-color: beige;
+.nos-div1 {
+  text-align: justify;
+  width: 450px;
+  height: 150px;
 }
 
+.nos-div2 {
+  text-align: justify;
+  width: 350px;
+  height: 250px;
+}
 
 /*# sourceMappingURL=style.css.map */
