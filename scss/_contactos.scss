@@ -2,17 +2,13 @@
 
 .co-headerProp {
     width: 100%;
-    height: 600px;
-    background-image: url(../imagenes/co-header-img.png);
-    background-position-y: -70px;
-    background-repeat: no-repeat;
-    background-size: 100vw;
-    text-align: center
+    height: 700px;
+    background-image: url(../imagenes/fondoContacto.webp);
 }
 
 header {
     h1 {
-        color: black;
+        color: white;
         text-shadow: 7px 3px 6px black;
     }
 }
