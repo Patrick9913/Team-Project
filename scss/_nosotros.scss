@@ -1,7 +1,7 @@
 .us-headerProp {
     width: 100%;
     height: 700px;
-    background-image: url(../imagenes/imgnos/headernosotros.webp);
+    background-image: url(../imagenes/imgnos/fondoNosotros.webp);
 }
 
 header {
@@ -37,12 +37,12 @@ header {
 }
 
 .nos-grid{
-    @include grid(5, 4, 
-    "area1 area1 area1 area2 area2"
-    "area1 area1 area1 area2 area2"
-    "area3 area3 area4 area4 area4"
-    "area3 area3 area4 area4 area4"
-    )  
+    @include grid(4, 2, 
+    "area1 area2 area2 area2"
+    "area4 area4 area4 area3"
+    );
+    gap: 15px;
+      
 }
 
 .nos-area1{
@@ -50,6 +50,8 @@ header {
 }
 .nos-area2{
     grid-area: area2;
+    width: 100%;
+    height: 400px;
 }
 .nos-area3{
     grid-area: area3;

@@ -87,7 +87,7 @@ body footer section div div p {
 .us-headerProp {
   width: 100%;
   height: 700px;
-  background-image: url(../imagenes/imgnos/headernosotros.webp);
+  background-image: url(../imagenes/imgnos/fondoNosotros.webp);
 }
 
 header h1 {
@@ -122,9 +122,10 @@ header h1 {
 
 .nos-grid {
   display: grid;
-  grid-template-columns: 5;
-  grid-template-rows: 4;
-  grid-template-areas: "area1 area1 area1 area2 area2" "area1 area1 area1 area2 area2" "area3 area3 area4 area4 area4" "area3 area3 area4 area4 area4";
+  grid-template-columns: 4;
+  grid-template-rows: 2;
+  grid-template-areas: "area1 area2 area2 area2" "area4 area4 area4 area3";
+  gap: 15px;
 }
 
 .nos-area1 {
@@ -133,6 +134,8 @@ header h1 {
 
 .nos-area2 {
   grid-area: area2;
+  width: 100%;
+  height: 400px;
 }
 
 .nos-area3 {
