@@ -127,6 +127,9 @@ header h1 {
   grid-template-areas: "area1 area2 area2 area2" "area4 area4 area4 area3";
   gap: 15px;
 }
+.nos-grid img {
+  border: black solid 1px;
+}
 
 .nos-area1 {
   grid-area: area1;
